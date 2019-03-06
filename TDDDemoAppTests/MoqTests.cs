@@ -17,6 +17,7 @@ namespace TDDDemoAppTests
         [DataRow(10058, 100, 100, 200)]
         [DataRow(10058, -10, 100, 90)]
         [DataRow(10058, 2, 3, 5)]
+        [DataRow(10058, -9, -90, -99)]
 
         [TestCategory("Moq")]
         [DataTestMethod]
